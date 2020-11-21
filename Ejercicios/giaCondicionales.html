@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../main.css">
+    <title>Klrofil</title>
+
+    <!-- ICONS -->
+	<link rel="apple-touch-icon" sizes="76x76" href="../img/apple-icon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon.png">
+    <link rel="quot;stylesheet" href="font/css/font-awesome.min.css">
+</head>
+<body>
+    
+        <div id="menuSup">
+            <div style="padding: 30px; float: left;"><img src="../img/logo-dark.png" style="width: 139px;" i
+    d="link"></div>
+            <div style="float: right; padding: 30px;">
+                <ul id="menuHorizontal">
+                    <li>Opción 1</li>
+                    <li>Opción 1</li>
+                    <li>StivenRuiz</li>
+                </ul>
+            </div>
+        </div>
+            <div class="container">
+                <div id="menuDer">
+                    <p><a href="../index.html"><i class="fa fa-cubes" aria-hidden="true"></i>Guia CSS</a>
+                    </p>
+                    <p  class="active"><a href="Ejercicios/giaCondicionales.html"><i class="fa fa-calendar" aria-hidden="true"></i>Guia 2 Condicionales</a></p>
+                    <p><a href="http://www.bing.com">Bing</a></p>
+                    <p><a href="http://www.ask.com">ASK</a></p>
+                </div>
+                <div id="contenido">
+                    <H1>Ejercicios JS Condicionales</H1>
+    
+                    <h2>1</h2>
+                        <p class="enunciadoEjer">Desarrolle una aplicación que permita obtener 3 notas de un estudiante de 1 a 5, obtenga
+                            el promedio y si este es mayor a 3</P>
+                            <div>
+                                Nota1: <input class="formulario" type="number" name="numero" id="nota1">
+                                Nota2: <input class="formulario" type="number" name="numero" id="nota2">
+                                Nota3: <input class="formulario" type="number" name="numero" id="nota3">
+                                <input class="formulario" type="button" value="Sacar Promedio" onclick="promedion();">
+                                <p id="promedio" style="padding: 18px;"></p>   
+                            </div>
+
+                    <h2>2</h2>
+                        <p class="enunciadoEjer">Desarrolle un programa para leer el nombre de un empleado, el salario básico por hora y el
+                            número de horas trabajadas durante una semana. Calcule el salario neto, teniendo en
+                            cuenta que si el número de horas trabajadas durante la semana es mayor de 48 horas,
+                            esas horas demás se consideran horas extras y tienen un recargo del 35%. Imprima el
+                            nombre del empleado y su salario neto.</p>
+                            <div>
+                                Nombre: <input class="formulario" type="Text" value="Nombre"  id="nombre">
+                                Salario por Hora<input class="formulario" type="number" name="numero" id="SPH">
+                                Horas Trabajadas<input class="formulario" type="number" name="numero" id="horasTrabajadas">
+                                <input class="formulario" type="button" value="Calcular Salario" onclick="salario();">
+                                <p id="valorSalario" style="padding: 18px;"></p>
+                            </div>
+
+                    <h2>3</h2>
+                        <p class="enunciadoEjer">Desarrolle un programa que le permita determinar el número medio de tres números. El
+                            número medio es aquel que no es el mayor ni el menor.</p>  
+                            <div>
+                                
+                            </div>  
+                            
+            </div>
+
+    <script src="gia2.js" ></script>   
+    </body>
+</html>

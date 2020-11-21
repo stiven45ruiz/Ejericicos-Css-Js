@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Klrofil</title>
+
+    <!-- ICONS -->
+	<link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon.png">
+    <link rel="quot;stylesheet" href="font/css/font-awesome.min.css">
+</head>
+<body>
+    
+        <div id="menuSup">
+            <div style="padding: 30px; float: left;"><img src="img/logo-dark.png" style="width: 139px;" i
+    d="link"></div>
+            <div style="float: right; padding: 30px;">
+                <ul id="menuHorizontal">
+                    <li>Opción 1</li>
+                    <li>Opción 1</li>
+                    <li>Stiven Ruiz</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container">
+            <div id="menuDer">
+                <p class="active"><a href="index.html"><i class="fa fa-cubes" aria-hidden="true"></i>Guia CSS</a>
+                </p>
+                <p><a href="Ejercicios/giaCondicionales.html"><i class="fa fa-calendar" aria-hidden="true"></i>Guia 2 Condicionales</a></p>
+                <p><a href="http://www.bing.com">Bing</a></p>
+                <p><a href="http://www.ask.com">ASK</a></p>
+            </div>
+            <div id="contenido">
+                <H1>Ejercicios JS</H1>
+
+                <h2>1</h2>
+                    <p class="enunciadoEjer">Realizar la carga del lado de un cuadrado, mostrar por pantalla el perímetro del mismo
+                    (El perímetro de un cuadrado se calcula multiplicando el valor del lado por cuatro).</p>
+                    <P>Ingrese un lado de un cuadrado</P>
+
+                    <div class="ejercicio1">
+                        <input class="formulario" type="number" name="numero" id="inputnumero">
+                        <input class="formulario" type="button" value="Enviar" onclick="recibir();">
+                        <p id="resultado" style="padding: 18px;"></p>
+                    </div>
+                    
+
+                <h2>2</h2>
+                    <p class="enunciadoEjer">Realizar un ejercicio donde inserte una imagen y escriba un texto en h3 mezclando
+                    código javascript y html.</p>
+
+                    <div class="ejercicio1">
+                        <input class="formulario" type="button" value="Cargar imagen" onclick="cargaImagen();">
+                        <h3 id="ejercicio3"></h3>
+                    </div>
+                    <canvas width="200" height="200" id="imagen"> </canvas>
+
+
+                <h2>3</h2>
+                    <p class="enunciadoEjer">Desarrolle un algoritmo para calcular el área de un triangulo</p>
+                    <div>
+                        <p>Ingrese la Base y la altura del triangulo</p>
+                        <input class="formulario" type="number" name="numero" id="base">
+                        <input class="formulario" type="number" name="numero" id="altura">
+                        <input class="formulario" type="button" value="Enviar" onclick="triangulo();">
+                        <p id="areaTria" style="padding: 18px;"></p>
+                    </div>
+
+
+                <h2>4</h2>
+                    <p class="enunciadoEjer">Dado un tiempo en minutos, calcular los días, horas y minutos que le corresponden.</p>
+                    <div>
+                        
+                    </div>
+
+
+                <h2>5</h2>
+                    <p class="enunciadoEjer">Desarrolle un programa que le permita leer las notas (3) de las materias que ha cursado
+                        un estudiante hasta el momento, saque su promedio e imprima su nombre, número de
+                        carnet y el promedio.</p> 
+                    <div>
+                        Nota1: <input class="formulario" type="number" name="numero" id="nota1">
+                        Nota2: <input class="formulario" type="number" name="numero" id="nota2">
+                        Nota3: <input class="formulario" type="number" name="numero" id="nota3">
+                        Nombre: <input class="formulario" type="Text" value="Nombre"  id="nombre">
+                        N° Carnet<input class="formulario" type="number" name="numero" id="NCarnet">
+                        <input class="formulario" type="button" value="Sacar Promedio" onclick="promedion();">
+                        <p id="NombreNum"></p>
+                        <p id="promedio" style="padding: 18px;"></p>   
+                    </div> 
+                    
+                <h2>6</h2>
+                    <p class="enunciadoEjer">La compañía de telefonía el cuatro letras, desea calcular el monto a cobrar a sus
+                        clientes. Si se conoce para un cliente el número de teléfono, el total de llamadas
+                        realizadas en el mes y el total de minutos consumidos en esas llamadas. (Valor minuto
+                        $50).</p> 
+                    <p>Para calcular las llamadas de click en calcular</p>  
+                    <input class="formulario" type="button" value="Calcular Monto" onclick="calculallamadas();">   
+                    <p id="montollamada" style="padding: 18px;"></p> 
+
+
+            </div> 
+        </div> 
+    <script src="script.js"></script>   
+</body>
+</html>
