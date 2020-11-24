@@ -19,7 +19,7 @@ function promedion()
     }
 }
 
-//Ejercico 2
+//Ejercicio 2
 
 const valorSalario = document.getElementById("valorSalario")
 function salario()
@@ -42,3 +42,40 @@ function salario()
     
 
 }
+
+//Ejercicio 3
+
+const numeroM = document.getElementById("numeroM")
+function numeroMedio()
+{
+    var numero1 = parseInt(document.getElementById("numero1").value)
+    var numero2 = parseInt(document.getElementById("numero2").value)
+    var numero3 = parseInt(document.getElementById("numero3").value)
+    if(numero1>numero2)
+    {
+        if(numero2>numero3)
+        {
+            numeroM.innerHTML = ("El numero medio Es "+ numero2)
+        }
+        else if (numero1>numero3)
+        {
+            numeroM.innerHTML = ("El numero medio Es "+ numero3)
+        }
+        else
+        {
+            numeroM.innerHTML = ("El numero medio Es "+ numero1)
+        }
+    }
+    else if(numero1>numero3)
+    {
+            numeroM.innerHTML = ("El numero medio Es "+ numero1)
+    }
+    else
+    {
+        numeroM.innerHTML = ("El numero medio Es "+ numero3)
+    }
+}
+
+
+
+//Ejercicio 4
