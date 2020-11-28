@@ -145,6 +145,15 @@ body
     display: flex;
     flex-direction: row;
 }
+.listaEjer
+{
+    padding-left: 30px;
+}
+table
+{
+    padding-left: 30px;
+    padding-top: 30px;
+}
 input
 {
     background-color: rgb(224, 224, 224);

@@ -79,3 +79,64 @@ function numeroMedio()
 
 
 //Ejercicio 4
+
+
+const resultadoIntereses = document.getElementById("resultadoIntereses")
+function liqIntereses()
+{
+    var cedula = prompt("Ingrese su numero de cedula.")
+    var nombre = prompt("Ingrese su Nombre.")
+    var tipoCuenta = parseInt(prompt("Ingrese Su tipo de cuenta \n1: Ahorros \n2: Corriente \n3: Hipotecario \n4: Prestamos"))
+    var saldoActual = parseInt(prompt("Ingrese su saldo"))
+    var saldonuevo, interes, porsentajeInte;
+    function calculo()
+    {
+        interes = saldoActual*porsentajeInte
+        saldonuevo = saldoActual + interes
+        resultadoIntereses.innerHTML = ("Su liquidacion de intereses es de $"+interes+" Su nuevo saldo es de $"+saldonuevo)
+    }
+
+    switch (tipoCuenta) {
+        case 1:
+            porsentajeInte = 0.10
+            calculo();
+            break;
+        case 2:
+            porsentajeInte = 0.8
+            calculo();
+            break;
+        case 3:
+            porsentajeInte = 0.12
+            calculo();
+            break;
+        case 4:
+            porsentajeInte = 0.5
+            calculo();
+            break;
+        default:
+            break;
+    }
+}
+
+//Ejercicio 5
+const Numeromayor = document.getElementById("Numeromayor")
+function numMayor()
+{
+    var primernumero = parseInt(document.getElementById("primernumero").value)
+    var segundonumero = parseInt(document.getElementById("segundonumero").value)
+    if(primernumero>segundonumero)
+    {
+        Numeromayor.innerHTML = ("El numero mayor es "+primernumero)
+    }
+    else{
+        Numeromayor.innerHTML = ("El numero mayor es "+segundonumero)
+    }
+}
+
+//Ejercicio 6
+const totalApagar = document.getElementById("totalApagar")
+function totalpagar()
+{
+    var valorMatricula = prompt("Ingrese el valor de la matricula")
+    var numeroHijos = prompt("Ingrese la cantidad de hijos")
+}

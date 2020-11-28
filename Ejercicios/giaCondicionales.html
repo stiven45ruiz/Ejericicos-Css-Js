@@ -20,9 +20,9 @@
                 d="link"></div>
             <div style="float: right; padding: 30px;">
                 <ul id="menuHorizontal">
-                    <li>Opción 1</li>
-                    <li>Opción 1</li>
-                    <li>StivenRuiz</li>
+                    <li>2067454</li>
+                    <li>ADSI</li>
+                    <li>Stiven Ruiz</li>
                 </ul>
             </div>
         </div>
@@ -30,7 +30,7 @@
                 <div id="menuDer">
                     <p><a href="../index.html"><i class="fa fa-cubes" aria-hidden="true"></i>Guia CSS</a>
                     </p>
-                    <p  class="active"><a href="Ejercicios/giaCondicionales.html"><i class="fa fa-calendar" aria-hidden="true"></i>Guia 2 Condicionales</a></p>
+                    <p  class="active"><a href="giaCondicionales.html"><i class="fa fa-calendar" aria-hidden="true"></i>Guia 2 Condicionales</a></p>
                     <p><a href="http://www.bing.com">Bing</a></p>
                     <p><a href="http://www.ask.com">ASK</a></p>
                 </div>
@@ -75,14 +75,56 @@
                     <h2>4</h2>
                         <p class="enunciadoEjer">El banco para el pueblo realiza la liquidación de intereses dependiendo el tipo de cuenta.
                             Capturar los siguientes datos: Cedula, nombre y tipo de cuenta y saldo.
-                            Monto a pagar de interés, dado por la siguiente tabla
-                            
-                            Para cuentas tipo 1 (ahorro) el 10%
-                            Para cuentas tipo 2 (corriente) el 8%
-                            Para cuentas tipo 3 (Hipotecario) el 12%
-                            Para cuentas tipo 4 (prestamos) 5%
-                            Mostrar Saldo nuevo con los intereses.</p>  
-                            <div></div>
+                            Monto a pagar de interés, dado por la siguiente tabla.</p>  
+                            <ul class="listaEjer">
+                                <li>Para cuentas tipo 1 (ahorro) el 10%</li>
+                                <li>Para cuentas tipo 2 (corriente) el 8%</li>
+                                <li>Para cuentas tipo 3 (Hipotecario) el 12%</li>
+                                <li>Para cuentas tipo 4 (prestamos) 5%</li>
+                                Mostrar Saldo nuevo con los intereses.
+                            </ul>
+                            <div>
+                                <input class="formulario" type="button" value="Calcular Liquidación de Intereses" onclick="liqIntereses();">
+                                <p id="resultadoIntereses" style="padding: 18px;"></p>
+                            </div>
+                    <h2>5</h2>
+                        <p>Realizar un programa que lea dos números distintos y muestre el mayor de ellos.</p> 
+                            <div>
+                                Numero1: <input class="formulario" type="number" name="numero" id="primernumero">
+                                Numero2: <input class="formulario" type="number" name="numero" id="segundonumero">
+                                <input class="formulario" type="button" value="Calcular Numero Mayor" onclick="numMayor();">
+                                <p id="Numeromayor" style="padding: 18px;"></p>
+                            </div> 
+                    <h2>6</h2>
+                        <p>El colegio “Mi angelito” desea calcular el monto a pagar por inscripción del nuevo año
+                            escolar, para las familias con hijos en el colegio. Para ello se conoce el número de hijos
+                            que tiene la familia en el colegio, el monto de matrícula por niño, el monto de la
+                            mensualidad del mes por niño y el monto de la sociedad de padres. Elabore un algoritmo
+                            que calcule el total a pagar por la familia, si la sociedad de padres se cobra una vez por
+                            familiar y si se otorga un descuento por la cantidad de hijos en el colegio que viene dado
+                            por la siguiente tabla.</p>
+                            <table>
+                                <tr>
+                                    <th>Cantidad de hijos |</th>
+                                    <th>Descuento</th>
+                                </tr>
+                                <tr>
+                                    <td>2 niños</td>
+                                    <td>10%</td>
+                                </tr>
+                                <tr>
+                                    <td>3 niños</td>
+                                    <td>15%</td>
+                                </tr>
+                                <tr>
+                                    <td>> 3 niños</td>
+                                    <td>20%</td>
+                                </tr>
+                            </table>   
+                            <div>
+                                <input class="formulario" type="button" value="Calcular Total a Pagar" onclick="totalpagar();">
+                                <p id="totalApagar" style="padding: 18px;"></p>
+                            </div>      
                             
             </div>
 
