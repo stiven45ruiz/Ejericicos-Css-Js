@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../main.css">
+    <title>Klrofil</title>
+
+    <!-- ICONS -->
+	<link rel="apple-touch-icon" sizes="76x76" href="../img/apple-icon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon.png">
+    <link rel="quot;stylesheet" href="font/css/font-awesome.min.css">
+</head>
+<body>
+    
+        <div id="menuSup">
+            <div style="padding-left: 40px; padding-top: 5px; float: left;"><img src="../img/nasa-logo-1.png" style="width: 90px;" i
+                d="link"></div>
+            <div style="float: right; padding: 30px;">
+                <ul id="menuHorizontal">
+                    <li>2067454</li>
+                    <li>ADSI</li>
+                    <li>Stiven Ruiz</li>
+                </ul>
+            </div>
+        </div>
+            <div class="container">
+                <div id="menuDer">
+                    <p><a href="../index.html"><i class="fa fa-cubes" aria-hidden="true"></i>Guia CSS</a>
+                    </p>
+                    <p><a href="giaCondicionales.html"><i class="fa fa-calendar" aria-hidden="true"></i>Guia 2 Condicionales</a></p>
+                    <p class="active"><a href="azar.html">Juego de Azar</a></p>
+                    <p><a href="numAleatorio.html">Numero Aleatorio</a></p>
+                </div>
+                <div id="contenido">
+                    <h2>Traga Monedas</h2>
+                    <div class="numerosazar">
+                        <p id="numAzar1" style="padding: 18px;"></p>
+                        <p id="numAzar2" style="padding: 18px;"></p>
+                        <p id="numAzar3" style="padding: 18px;"></p>
+                    </div>
+                    <input class="formulario" type="number" value="1000" id="apuesta">
+                    <input class="formulario" type="button" value="Apostar" onclick="apostar();">
+                    <p id="resultado" style="padding: 18px;"></p>
+                    <p id="saldoPrint" style="padding: 18px;"></p>
+                </div>
+
+    <script src="azar.js" ></script>   
+    </body>
+</html>
