@@ -175,3 +175,7 @@ input:hover
 padding: 50px;
 padding-bottom: 120%;
 }
+.numerosazar
+{
+    display: flex;
+}

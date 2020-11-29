@@ -25,11 +25,6 @@ function apostar ()
     numAzar2.innerHTML = (reNumAzar2)
     numAzar3.innerHTML = (reNumAzar3)
 
-    
-
-    while (apuesta<=1000) {
-        resultado.innerHTML = ("Lo siento, lo minimo a apostar es $1000")
-    }
 
     while (saldo<apuesta) {
         resultado.innerHTML = ("Lo siento, Tu saldo es insuficiente")
