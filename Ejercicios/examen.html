@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../main.css">
+    <title>Klrofil</title>
+
+    <!-- ICONS -->
+	<link rel="apple-touch-icon" sizes="76x76" href="../img/apple-icon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon.png">
+    <link rel="quot;stylesheet" href="font/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="menuSup">
+        <div style="padding-left: 40px; padding-top: 5px; float: left;"><img src="../img/nasa-logo-1.png" style="width: 90px;" i
+            d="link"></div>
+        <div style="float: right; padding: 30px;">
+            <ul id="menuHorizontal">
+                <li>2067454</li>
+                <li>ADSI</li>
+                <li>Stiven Ruiz</li>
+            </ul>
+        </div>
+    </div>
+        <div class="container">
+            <div id="menuDer">
+                <p><a href="../index.html"><i class="fa fa-cubes" aria-hidden="true"></i>Guia CSS</a>
+                </p>
+                <p><a href="giaCondicionales.html"><i class="fa fa-calendar" aria-hidden="true"></i>Guia 2 Condicionales</a></p>
+                <p><a href="azar.html">Juego de Azar</a></p>
+                <p><a href="numAleatorio.html">Numero Aleatorio</a></p>
+                <p class="active"><a href="examen.html">Simulador examen</a></p>
+            </div>
+            <div id="contenido">
+                <tbody>
+                    <p>
+                        Examen
+                    </p>
+    
+                    <p>
+                        <tr>
+                            <td>Ingrese Su Nombre</td>
+                            <td colspan="3">
+                                <input id="nombre" type="text" required>
+                            </td>
+                            <td>Ingrese N° Ficha</td>
+                            <td colspan="3">
+                                <input id="numeroFicha" type="number" required>
+                            </td>
+                        </tr>
+                    </p>
+
+                    <p>
+                        <p>
+                            Como se declara una variable en JS
+                        </p>
+                        <p>
+                            <input type="radio" name="question1" id="question1" value="1"> Var = hola;
+                            
+                            <input type="radio" name="question1" id="question1" value="2"> var 23hola;
+                        
+                            <input type="radio" name="question1" id="question1" value="3"> var hola = 0;
+                        </p>     
+                    </p>
+                    
+                    <p>
+                        <p>
+                            Con que etiqueta creo una entrada de datos
+                        </p>
+                        <p>
+                            <input type="radio" name="p2" value="1"> body
+
+                            <input type="radio" name="p2" value="2"> input
+
+                            <input type="radio" name="p2" value="3"> header
+                        </p>       
+                    </p>
+
+                    <p>
+                        <p>
+                            Que tributo se aplica a un elemento para que una entrada sea obligatoria
+                        </p>
+                        <p>
+                            <input type="radio" name="p3" value="1"> required
+                            
+                            <input type="radio" name="p3" value="2"> value
+                        
+                            <input type="radio" name="p3" value="3"> type
+                        </p>
+                    </p>
+        
+        
+                    <tr>
+                        <td colspan="2">
+                            <input type="reset" value="Limpiar">
+                        </td>
+                        <td colspan="2">
+                            <input type="submit" value="Enviar">
+                        </td>
+                    </tr>
+                </tbody>    
+            </div>
+        </div>    
+    <script src="exmen.js" ></script>   
+</body>
+</html>
